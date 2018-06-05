@@ -23,7 +23,7 @@ cls
 echo Quadra Lollipop Build 0001. Copyright © External Corp 2018. This build programmed by CyberKing18.
 set /p password= Quadra User. Password:
 if %password% == lollipop9 goto desktop
-if not %password% == lollipop9 goto bootscreentwo
+if not %password% == lollipop9 goto bootscreen
 
 :desktop
 cls
@@ -58,7 +58,7 @@ cls
 echo Quadra Lollipop Build 0002. Copyright © External Corp 2018. This build programmed by CyberKing18.
 set /p password= Developer Password:
 if %password% == lollipopdev goto devdesktop
-if not %password% == lollipopdev goto bootscreentwo
+if not %password% == lollipopdev goto bootscreen
 
 :shutdownscreen
 cls
