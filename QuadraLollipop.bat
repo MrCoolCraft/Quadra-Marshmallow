@@ -5,25 +5,25 @@ goto startup
 
 :startup
 cls
-echo Quadra Lollipop. Starting Up.
+echo Quadra Marshmallow. Starting Up.
 
-echo Quadra Lollipop. Starting Up..
+echo Quadra Marshmallow. Starting Up..
 sleep 2
-echo Quadra Lollipop. Starting Up...
+echo Quadra Marshmallow. Starting Up...
 goto welcome
 
 :welcome
 cls
-echo Welcome to Quadra Lollipop! If you would like to sign into Quadra as a user, please select Quadra user. The password is lollipop9
+echo Welcome to Quadra Marshmallow! If you would like to sign into Quadra as a user, please select Quadra user. The password is lollipop9
 goto bootscreen
 
 
 :userboot
 cls
-echo Quadra Lollipop Build 0001. Copyright © External Corp 2018. This build programmed by CyberKing18.
+echo Quadra Marshmallow Build 0001. Copyright © External Corp 2018. This build programmed by CyberKing18.
 set /p password= Quadra User. Password:
-if %password% == lollipop9 goto desktop
-if not %password% == lollipop9 goto bootscreen
+if %password% == marshmallow9 goto desktop
+if not %password% == marshmallow9 goto bootscreen
 
 :desktop
 cls
@@ -55,10 +55,10 @@ if %menuselect% == 8 goto bootscreen
 
 :developerbootscreen
 cls
-echo Quadra Lollipop Build 0002. Copyright © External Corp 2018. This build programmed by CyberKing18.
+echo Quadra Marshmallow Build 0002. Copyright © External Corp 2018. This build programmed by CyberKing18.
 set /p password= Developer Password:
-if %password% == lollipopdev goto devdesktop
-if not %password% == lollipopdev goto bootscreen
+if %password% == marshmallowdev goto devdesktop
+if not %password% == marshmallowdev goto bootscreen
 
 :shutdownscreen
 cls
